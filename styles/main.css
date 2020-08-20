@@ -14,29 +14,30 @@ header {
 .entry-viewer {
     background-color: cadetblue;
     height: 29em;
+    padding-top: 1%;
 }
 
 .entry-viewer__highlighted{
-    background-color: dodgerblue;
+    background-color: rgb(109, 30, 255);
     max-width: 45%;
     height: 90%;
     margin-left: 1%;
+    
 }
-
-
-
-
 
 .entry-input {
     background-color: darkslateblue;
     height: 17em;
 }
 
+.entry_delete {
+    float: right;
 
-
-
-
-
+    
+}
+ .entry_edit {
+     float: right;
+ }
 
 
 footer {
