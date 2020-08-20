@@ -1,0 +1,12 @@
+header {
+    display: flex;
+    flex-wrap: nowrap;
+}
+
+.title-box {
+    padding-top: 1.5%;
+}
+
+.logo-box__logo {
+    max-width: 15%;
+}
