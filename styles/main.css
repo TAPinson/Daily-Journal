@@ -3,10 +3,42 @@ header {
     flex-wrap: nowrap;
 }
 
+.logo-box__logo {
+    max-width: 15%;
+}
+
 .title-box {
     padding-top: 1.5%;
 }
 
-.logo-box__logo {
-    max-width: 15%;
+.entry-viewer {
+    background-color: cadetblue;
+    height: 29em;
+}
+
+.entry-viewer__highlighted{
+    background-color: dodgerblue;
+    max-width: 45%;
+    height: 90%;
+    margin-left: 1%;
+}
+
+
+
+
+
+.entry-input {
+    background-color: darkslateblue;
+    height: 17em;
+}
+
+
+
+
+
+
+
+
+footer {
+    text-align: center;
 }
