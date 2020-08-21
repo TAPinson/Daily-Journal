@@ -7,7 +7,6 @@
     <link rel="stylesheet" href="styles/main.css">
 </head>
 <body>
-
     <header>
         <div class="logo-box">
             <img class="logo-box__logo" src="images/logo.jpg" alt="Daily Journal Logo">
@@ -15,11 +14,7 @@
         <h1 class="title-box"> Daily Journal</h1>
     </header>
     <hr>
-
     <section class="entry-viewer">
-
-        
-
         <div class="entry-viewer__highlighted">
             <div class="entry-card">
                 The selected entry will be displayed in this window
@@ -27,44 +22,29 @@
             <button class="entry_delete">Delete</button>
             <button class="entry_edit">Edit</button>
         </div>
-
         <aside>
             Available posts selectable here
         </aside>
-
     </section>
-    
-
     <form class="entry-input">
         <h2 class="input-head">Create Journal Entry</h2>
-
         <label for="todaysDate">Todays Date: </label>
         <input type="date" id="todaysDate">
-
         <label for="moodBox">Current Mood: </label>
         <select id="moodBox">
             <option value="Happy">Happy</option>
             <option value="Fine">Fine</option>
             <option value="Sad">Sad</option>
         </select>
-
         <label for="conceptsBox">Concepts Covered: </label>
         <input type="text" id="conceptsBox" name="conceptInput">
 
         <label for="newEntry">Journal Entry</label>
         <textarea id="newEntry" rows="4" cols="50"></textarea>
         <button class="entry-submit">Record Journal Entry</button>
-            
-        
-
-
-
-        
     </form>
-
     <footer>
         Created by Travis Pinson GITHUB Link Here -- Copyright Travis Pinson 2020
     </footer>
-
 </body>
 </html>

@@ -17,7 +17,6 @@ header {
     margin-left: -10%;
 }
 
-
 .entry-viewer {
     background-color: cadetblue;
     display: flex;
@@ -58,17 +57,14 @@ aside {
      margin: 1em;
  }
 
-
 .input-head {
     text-align: center;
 } 
-
 
 #todaysDate {
     max-width: 10%;
     margin-bottom: 1%;
 }
-
 
 #moodBox {
     max-width: 10%;
@@ -84,7 +80,6 @@ aside {
     max-width: 8%;
     align-self: flex-end;
     margin-top: 1%;
-
 }
 
 footer {
