@@ -4,8 +4,7 @@ header {
 }
 
 .logo-box{
-    width: 7%;
-
+    width: 4.5%;
 }
 
 .logo-box__logo {
@@ -15,51 +14,78 @@ header {
 .title-box {
     width: 100%;
     text-align: center;
-    
     margin-left: -10%;
 }
 
+
 .entry-viewer {
     background-color: cadetblue;
-    height: 29em;
-    padding-top: 1%;
+    display: flex;
+}
+
+aside {
+    background-color: chartreuse;
+    width: 35%
 }
 
 .entry-viewer__highlighted{
     background-color: rgb(109, 30, 255);
-    max-width: 40%;
-    height: 80%;
-    margin-left: 1%;
-    padding: 2%;
-    
+    width: 65%;
+    height: 25em;
 }
 
 .entry-card {
-    width: 95%;
-    height: 80%;
     border: 1px solid;
-    margin-bottom: 3%;
-    padding: 1%;
-    
+    margin: 1%;
+    height: 20em;
 }
 
 .entry-input {
     background-color: darkslateblue;
-    height: 17em;
+    height: 23em;
+    padding: 1em;
+    display: flex;
+    flex-direction: column;
 }
 
 .entry_delete {
     float: right;
-    margin-top: 6%;
-    margin-left: 3%;
-
-    
+    margin: 1em;
 }
+
  .entry_edit {
      float: right;
-     margin-top: 6%;
+     margin: 1em;
  }
 
+
+.input-head {
+    text-align: center;
+} 
+
+
+#todaysDate {
+    max-width: 10%;
+    margin-bottom: 1%;
+}
+
+
+#moodBox {
+    max-width: 10%;
+    margin-bottom: 1%;
+}
+
+#conceptsBox {
+    max-width: 30%;
+    margin-bottom: 1%;
+}
+
+.entry-submit {
+    max-width: 8%;
+    align-self: flex-end;
+    margin-top: 1%;
+
+}
 
 footer {
     text-align: center;
