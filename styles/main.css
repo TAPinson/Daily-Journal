@@ -38,7 +38,7 @@ header {
     border-radius: 10px;
 }
 
-.entry-tags {
+.entry-title {
     border: 1px solid;
     max-width: 25%;
     margin: 1%;
@@ -83,7 +83,7 @@ header {
      margin: 1em;
  }
 
- aside {
+ #postsAside {
     background-color: chartreuse;
     width: 25%;
     display: flex;
