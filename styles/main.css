@@ -22,8 +22,6 @@ header {
     display: flex;
 }
 
-
-
 .entry-viewer__highlighted{
     background-color: rgb(109, 30, 255);
     width: 75%;
@@ -37,9 +35,10 @@ header {
 }
 
 .entry-input {
-    background-color: darkslateblue;
-    height: 23em;
-    padding: 1em;
+    background-color: rgb(37, 13, 190);
+    padding-left: 1%;
+    padding-bottom: 1%;
+    padding-right: 1%;
     display: flex;
     flex-direction: column;
 }
@@ -67,8 +66,6 @@ header {
     border: 2px solid;
     border-radius: 10px;
     max-width: 75%;
-    
-    
 }
 
 .input-head {
