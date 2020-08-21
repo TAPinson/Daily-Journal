@@ -26,16 +26,43 @@ header {
     background-color: rgb(109, 30, 255);
     width: 75%;
     height: 26em;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.entry-date {
+    border: 1px solid;
+    max-width: 15%;
+    margin: 1%;
+    padding: 1%;
+    border-radius: 10px;
+}
+
+.entry-tags {
+    border: 1px solid;
+    max-width: 25%;
+    margin: 1%;
+    padding: 1%;
+    border-radius: 10px;
+}
+
+.entry-entry {
+    border: 1px solid;
+    margin: 1%;
+    padding: 1%;
+    border-radius: 10px;
+    
 }
 
 .entry-card {
     border: 1px solid;
     margin: 1%;
     height: 20em;
+    border-radius: 10px;
 }
 
 .entry-input {
-    background-color: rgb(37, 13, 190);
+    background-color: lightslategray;
     padding-left: 1%;
     padding-bottom: 1%;
     padding-right: 1%;
@@ -44,12 +71,15 @@ header {
 }
 
 .entry_delete {
-    float: right;
     margin: 1em;
 }
 
+.entry-button-box {
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+}
  .entry_edit {
-     float: right;
      margin: 1em;
  }
 
@@ -58,14 +88,15 @@ header {
     width: 25%;
     display: flex;
     flex-direction: column;
+    justify-content: space-around;
 }
 
 .postTab {
     padding: 1%;
-    margin: 2%;
     border: 2px solid;
     border-radius: 10px;
-    max-width: 75%;
+    max-width: 85%;
+    margin-left: 6%;
 }
 
 .input-head {
@@ -92,7 +123,7 @@ header {
 }
 
 .entry-submit {
-    max-width: 8%;
+    max-width: 10%;
     align-self: flex-end;
     margin-top: 1%;
 }
