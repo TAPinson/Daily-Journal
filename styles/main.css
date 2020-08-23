@@ -46,7 +46,7 @@ header {
     border-radius: 10px;
 }
 
-.entry-entry {
+#entry-entry {
     border: 1px solid;
     margin: 1%;
     padding: 1%;
@@ -57,7 +57,7 @@ header {
 .entry-card {
     border: 1px solid;
     margin: 1%;
-    height: 20em;
+    height: auto;
     border-radius: 10px;
 }
 

@@ -8,3 +8,8 @@ console.log(useJournalEntries());
 
 
 EntryListComponent();
+
+
+//testing entry of primary entry
+import { entryComponent } from './JournalEntryList.js'
+entryComponent()
